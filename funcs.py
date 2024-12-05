@@ -1,3 +1,7 @@
+def multiply(a,b):
+    return a*b
+
+
 def isLeap(y): 
     leap = False
     if y % 4 == 0:
@@ -7,6 +11,12 @@ def isLeap(y):
         else: 
             leap = True
     return leap
+
+def add(a,b):
+    return a+b
+
+def sub(a,b):
+    return a-b
 
 def pointInTriangle(b,h,x,y):
     
@@ -27,6 +37,8 @@ def pointInTriangle(b,h,x,y):
 
 
 #     return ret
+
+
 
 def gradeClassification(grade):
     if (grade <= 100) and (grade >= 0):
