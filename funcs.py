@@ -11,6 +11,9 @@ def isLeap(y):
 def add(a,b):
     return a+b
 
+def sub(a,b):
+    return a-b
+
 def pointInTriangle(b,h,x,y):
     
     ret = 1 # outside
