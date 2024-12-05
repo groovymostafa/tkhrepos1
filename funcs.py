@@ -8,6 +8,9 @@ def isLeap(y):
             leap = True
     return leap
 
+def add(a,b):
+    return a+b
+
 def pointInTriangle(b,h,x,y):
     
     ret = 1 # outside
